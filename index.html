@@ -447,6 +447,42 @@ a.btn-primary:hover,
   }
 
 }
+
+  /* STICKY CTA MÓVIL REAL */
+.mobile-sticky-cta {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-sticky-cta {
+    display: block !important;
+    position: fixed !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    z-index: 99999 !important;
+    background: rgba(17,17,17,.96) !important;
+    padding: 12px 16px !important;
+    border-top: 1px solid rgba(197,186,141,.25) !important;
+  }
+
+  .mobile-sticky-cta a {
+    width: 100% !important;
+    min-height: 52px !important;
+    background: #AECCC4 !important;
+    color: #111111 !important;
+    border-radius: 3px !important;
+    text-decoration: none !important;
+    font-weight: 800 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  body {
+    padding-bottom: 82px !important;
+  }
+}
 </style>
 </head>
 <body>
