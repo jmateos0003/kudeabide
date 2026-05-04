@@ -376,6 +376,47 @@ a.btn-primary:hover,
   border-color: #2a3834 !important;
   color: #F7F3F0 !important;
 }
+
+  /* FIX MOBILE HEADER + CTA HERO */
+@media (max-width: 768px) {
+
+  .nav-logo {
+    font-size: 1.15rem !important;
+    letter-spacing: 0.04em !important;
+  }
+
+  nav {
+    height: 80px !important;
+    padding: 0 24px !important;
+  }
+
+  #hero .btn-primary,
+  #hero a.btn-primary,
+  .hero-actions .btn-primary,
+  .hero-actions a.btn-primary {
+    background: #AECCC4 !important;
+    color: #111111 !important;
+    border: 1px solid #AECCC4 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    text-decoration: none !important;
+    width: 100% !important;
+    min-height: 58px !important;
+    padding: 1rem 1.4rem !important;
+    font-size: 0.95rem !important;
+    font-weight: 700 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    line-height: 1.2 !important;
+  }
+
+  #hero .btn-primary:hover,
+  #hero a.btn-primary:hover {
+    background: #8FAEA7 !important;
+    color: #111111 !important;
+  }
+}
 </style>
 </head>
 <body>
